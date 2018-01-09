@@ -1,0 +1,153 @@
+/**/
+/**  index.html */
+/**/
+
+html {
+  background-color: #777;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+body {
+  padding-bottom: 50px;
+}
+
+.page-header {
+  margin-top: 0;
+}
+
+.panel-body {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.list-group-item-heading {
+  margin-top: 15px;
+}
+
+.thumbnail {
+  overflow: hidden;
+  border: none;
+  margin-top: 10px;
+  padding: 0px;
+}
+
+.featureImg {
+  margin: 0px;
+  cursor: pointer;
+  transition: transform 2s;
+}
+
+.thumbnail:hover img {
+  transform: scale(1.7, 1.7) rotate(0deg);
+}
+
+#tableCalendar {
+  font-size: 1.5rem;
+}
+
+#sidebar-menu {
+  padding: 0px;
+  list-style: none;
+  background-color:white;
+  color: #9e8c9c;
+}
+
+#page-content-wrapper {
+  padding: 0px;
+  background-color:white;
+  color: #9e8c9c;
+}
+
+.page-content-wrapper-heading {
+  margin-top: 0px;
+}
+
+.page-content-wrapper-heading-glyphicon {
+  background-color:white;  
+  color: #9e8c9c;
+  vertical-align: middle;
+}
+
+#jvo {
+  padding: 15px;
+  padding-top: 0px;
+  line-height: 25px;
+}
+
+.menu-level-0-item {
+  padding-left: 10px;
+  line-height: 25px;
+} .menu-level-0-item:hover {
+    background-color: #9e8c9c;
+    color: white;
+}
+
+#menu-level-1 {
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-level-1-item {
+  padding-left: 15px;
+  line-height: 25px;
+} .menu-level-1-item:hover {
+  background-color: #9e8c9c;
+  color: white;
+}
+
+#menu-level-2 {
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-level-2-item {
+  padding-left: 20px;
+  line-height: 25px;
+} .menu-level-2-item:hover {
+  background-color: #9e8c9c;
+  color: white;
+}
+
+#menu-level-3 {
+  padding: 0px;
+  list-style: none;
+}
+
+.menu-level-3-item {
+  padding-left: 25px;
+  line-height: 25px;
+} .menu-level-3-item:hover {
+  background-color: #9e8c9c;
+  color: white;
+}
+
+.pulse-item {
+  animation: pulse 1s linear 1;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgba(158,140,156,0.4);
+  }
+
+  50% {
+    background-color: rgba(158,140,156,0.8);
+  }
+
+  100% {
+    background-color: rgba(158,140,156,1.0);
+  }
+}
+
+.hide {
+  width: 0%;
+  position: absolute;
+  overflow: hidden;
+}
+
+.see {
+  width: 100%;
+  font-size: 1.5rem;
+}
